@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FA4DBF3810CB2479009B18B1 /* Nio */;
+		activeTarget = 8D1107260486CEB800E47090 /* Nio */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Nio */,
+		);
+		codeSenseManager = FA4DBF4310CB248C009B18B1 /* Code sense */;
+		executables = (
+			FA4DBF3810CB2479009B18B1 /* Nio */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					545,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					655,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					615,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 281754497;
+			PBXWorkspaceStateSaveDate = 281754497;
+		};
+		perUserProjectItems = {
+			FA4DBF4E10CB2617009B18B1 = FA4DBF4E10CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5010CB2617009B18B1 = FA4DBF5010CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5210CB2617009B18B1 = FA4DBF5210CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5310CB2617009B18B1 = FA4DBF5310CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5410CB2617009B18B1 = FA4DBF5410CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5510CB2617009B18B1 = FA4DBF5510CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5610CB2617009B18B1 = FA4DBF5610CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5710CB2617009B18B1 = FA4DBF5710CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5810CB2617009B18B1 = FA4DBF5810CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5910CB2617009B18B1 = FA4DBF5910CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF5A10CB2617009B18B1 = FA4DBF5A10CB2617009B18B1 /* PBXTextBookmark */;
+			FA4DBF8D10CB2C2F009B18B1 = FA4DBF8D10CB2C2F009B18B1 /* PBXTextBookmark */;
+			FA4DBF9010CB2C2F009B18B1 = FA4DBF9010CB2C2F009B18B1 /* PBXTextBookmark */;
+			FA4DBF9110CB2C2F009B18B1 = FA4DBF9110CB2C2F009B18B1 /* PBXTextBookmark */;
+			FA4DBFA010CB3B6C009B18B1 = FA4DBFA010CB3B6C009B18B1 /* PBXTextBookmark */;
+			FA4DBFA110CB3B6C009B18B1 = FA4DBFA110CB3B6C009B18B1 /* PBXTextBookmark */;
+			FA4DBFA210CB3B6C009B18B1 = FA4DBFA210CB3B6C009B18B1 /* PBXTextBookmark */;
+			FA4DBFA310CB3B6C009B18B1 = FA4DBFA310CB3B6C009B18B1 /* PBXTextBookmark */;
+			FA4DBFB110CB3CC0009B18B1 /* PBXTextBookmark */ = FA4DBFB110CB3CC0009B18B1 /* PBXTextBookmark */;
+			FA4DBFB210CB3CC0009B18B1 /* PBXTextBookmark */ = FA4DBFB210CB3CC0009B18B1 /* PBXTextBookmark */;
+			FA4DBFB310CB3CC0009B18B1 /* PBXTextBookmark */ = FA4DBFB310CB3CC0009B18B1 /* PBXTextBookmark */;
+			FA4DBFB410CB3CC0009B18B1 /* PBXTextBookmark */ = FA4DBFB410CB3CC0009B18B1 /* PBXTextBookmark */;
+			FA4DBFB510CB3CC0009B18B1 /* PBXTextBookmark */ = FA4DBFB510CB3CC0009B18B1 /* PBXTextBookmark */;
+			FA4DBFB610CB3CC0009B18B1 /* PBXTextBookmark */ = FA4DBFB610CB3CC0009B18B1 /* PBXTextBookmark */;
+			FA4DBFB710CB3CC0009B18B1 /* PBXTextBookmark */ = FA4DBFB710CB3CC0009B18B1 /* PBXTextBookmark */;
+			FA4DBFC410CB3CFB009B18B1 /* PBXTextBookmark */ = FA4DBFC410CB3CFB009B18B1 /* PBXTextBookmark */;
+			FA4DBFC510CB3CFB009B18B1 /* PBXTextBookmark */ = FA4DBFC510CB3CFB009B18B1 /* PBXTextBookmark */;
+			FA4DBFC610CB3CFB009B18B1 /* PBXTextBookmark */ = FA4DBFC610CB3CFB009B18B1 /* PBXTextBookmark */;
+			FA4DBFC710CB3CFB009B18B1 /* PBXTextBookmark */ = FA4DBFC710CB3CFB009B18B1 /* PBXTextBookmark */;
+			FA4DBFCB10CB3D18009B18B1 /* PBXTextBookmark */ = FA4DBFCB10CB3D18009B18B1 /* PBXTextBookmark */;
+			FA4DBFCC10CB3D18009B18B1 /* PBXTextBookmark */ = FA4DBFCC10CB3D18009B18B1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FA4DBF4210CB248C009B18B1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Nio */ = {
+		activeExec = 0;
+		executables = (
+			FA4DBF3810CB2479009B18B1 /* Nio */,
+		);
+	};
+	FA4DBF3810CB2479009B18B1 /* Nio */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Nio;
+		sourceDirectories = (
+		);
+	};
+	FA4DBF4210CB248C009B18B1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	FA4DBF4310CB248C009B18B1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FA4DBF4610CB24DD009B18B1 /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {833, 458}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 354}";
+		};
+	};
+	FA4DBF4710CB24DD009B18B1 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {833, 812}}";
+			sepNavSelRange = "{180, 41}";
+			sepNavVisRange = "{0, 846}";
+		};
+	};
+	FA4DBF4A10CB25C1009B18B1 /* Client.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {833, 458}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 235}";
+		};
+	};
+	FA4DBF4B10CB25C1009B18B1 /* Client.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {833, 938}}";
+			sepNavSelRange = "{1155, 0}";
+			sepNavVisRange = "{650, 1189}";
+		};
+	};
+	FA4DBF4E10CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4610CB24DD009B18B1 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 3;
+	};
+	FA4DBF5010CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4A10CB25C1009B18B1 /* Client.h */;
+		name = "Client.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 235;
+		vrLoc = 0;
+	};
+	FA4DBF5210CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4610CB24DD009B18B1 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 133;
+		vrLoc = 0;
+	};
+	FA4DBF5310CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 133;
+		vrLoc = 0;
+	};
+	FA4DBF5410CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4610CB24DD009B18B1 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 23;
+	};
+	FA4DBF5510CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	FA4DBF5610CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4610CB24DD009B18B1 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 3;
+	};
+	FA4DBF5710CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 41";
+		rLen = 0;
+		rLoc = 1146;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 135;
+	};
+	FA4DBF5810CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4A10CB25C1009B18B1 /* Client.h */;
+		name = "Client.h: 1";
+		rLen = 235;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 192;
+		vrLoc = 0;
+	};
+	FA4DBF5910CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4B10CB25C1009B18B1 /* Client.m */;
+		name = "Client.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 899;
+	};
+	FA4DBF5A10CB2617009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4A10CB25C1009B18B1 /* Client.h */;
+		name = "Client.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 235;
+		vrLoc = 0;
+	};
+	FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {833, 458}}";
+			sepNavSelRange = "{322, 0}";
+			sepNavVisRange = "{0, 381}";
+		};
+	};
+	FA4DBF8D10CB2C2F009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4B10CB25C1009B18B1 /* Client.m */;
+		name = "Client.m: 43";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 650;
+	};
+	FA4DBF9010CB2C2F009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4B10CB25C1009B18B1 /* Client.m */;
+		name = "Client.m: 43";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 650;
+	};
+	FA4DBF9110CB2C2F009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */;
+		name = "Growl Registration Ticket.growlRegDict: 14";
+		rLen = 0;
+		rLoc = 364;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	FA4DBFA010CB3B6C009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 26";
+		rLen = 0;
+		rLoc = 764;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 131;
+	};
+	FA4DBFA110CB3B6C009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */;
+		name = "Growl Registration Ticket.growlRegDict: 14";
+		rLen = 0;
+		rLoc = 364;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	FA4DBFA210CB3B6C009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 26";
+		rLen = 0;
+		rLoc = 764;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 131;
+	};
+	FA4DBFA310CB3B6C009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */;
+		name = "Growl Registration Ticket.growlRegDict: 14";
+		rLen = 0;
+		rLoc = 364;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	FA4DBFB110CB3CC0009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 11";
+		rLen = 41;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 0;
+	};
+	FA4DBFB210CB3CC0009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */;
+		name = "Growl Registration Ticket.growlRegDict: 11";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	FA4DBFB310CB3CC0009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4610CB24DD009B18B1 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	FA4DBFB410CB3CC0009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */;
+		name = "Growl Registration Ticket.growlRegDict: 11";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	FA4DBFB510CB3CC0009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 11";
+		rLen = 41;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 0;
+	};
+	FA4DBFB610CB3CC0009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */;
+		name = "Growl Registration Ticket.growlRegDict: 11";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	FA4DBFB710CB3CC0009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4610CB24DD009B18B1 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	FA4DBFC410CB3CFB009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4610CB24DD009B18B1 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	FA4DBFC510CB3CFB009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: Growl/GrowlApplicationBridge.h: No such file or directory";
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	FA4DBFC610CB3CFB009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4610CB24DD009B18B1 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	FA4DBFC710CB3CFB009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 11";
+		rLen = 41;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 0;
+	};
+	FA4DBFCB10CB3D18009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: Growl/GrowlApplicationBridge.h: No such file or directory";
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	FA4DBFCC10CB3D18009B18B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 11";
+		rLen = 41;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 0;
+	};
+}

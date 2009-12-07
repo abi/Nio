@@ -147,6 +147,10 @@
 			FAB70B4810CDC8FA003E3A72 /* PBXTextBookmark */ = FAB70B4810CDC8FA003E3A72 /* PBXTextBookmark */;
 			FAB70B4B10CDC98D003E3A72 /* PBXTextBookmark */ = FAB70B4B10CDC98D003E3A72 /* PBXTextBookmark */;
 			FAB70B4D10CDC9E4003E3A72 /* PBXTextBookmark */ = FAB70B4D10CDC9E4003E3A72 /* PBXTextBookmark */;
+			FAB70B4F10CDCA29003E3A72 /* PBXBookmark */ = FAB70B4F10CDCA29003E3A72 /* PBXBookmark */;
+			FAB70B5410CDCB70003E3A72 /* PBXTextBookmark */ = FAB70B5410CDCB70003E3A72 /* PBXTextBookmark */;
+			FAB70B5510CDCB70003E3A72 /* PBXTextBookmark */ = FAB70B5510CDCB70003E3A72 /* PBXTextBookmark */;
+			FAB70B5810CDCB70003E3A72 /* PlistBookmark */ = FAB70B5810CDCB70003E3A72 /* PlistBookmark */;
 		};
 		sourceControlManager = FA4DBF4210CB248C009B18B1 /* Source Control */;
 		userBuildSettings = {
@@ -202,9 +206,9 @@
 	};
 	FA4DBF4710CB24DD009B18B1 /* AppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {762, 966}}";
+			sepNavIntBoundsRect = "{{0, 0}, {762, 952}}";
 			sepNavSelRange = "{208, 0}";
-			sepNavVisRange = "{0, 931}";
+			sepNavVisRange = "{290, 1180}";
 		};
 	};
 	FA4DBF4A10CB25C1009B18B1 /* Client.h */ = {
@@ -724,5 +728,38 @@
 		rType = 0;
 		vrLen = 931;
 		vrLoc = 0;
+	};
+	FAB70B4F10CDCA29003E3A72 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+	};
+	FAB70B5410CDCB70003E3A72 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: Growl-WithInstaller /GrowlApplicationBridge.h: No such file or directory";
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	FAB70B5510CDCB70003E3A72 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 11";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 290;
+	};
+	FAB70B5810CDCB70003E3A72 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/macbook/Stuff/greentea/repo/Nio/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 }

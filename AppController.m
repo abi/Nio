@@ -8,7 +8,7 @@
 
 #import "AppController.h"
 #import "Client.h"
-#import "Growl/GrowlApplicationBridge.h"
+#import "Growl-WithInstaller/GrowlApplicationBridge.h"
 
 @implementation AppController
 
@@ -29,16 +29,25 @@
 	
 	[statusItem setHighlightMode:YES];
 	
-	[GrowlApplicationBridge setGrowlDelegate:self]; 
+	NSBundle *myBundle = [NSBundle bundleForClass:[AppController class]];
+	NSString *growlPath = [[myBundle privateFrameworksPath] stringByAppendingPathComponent:@"Growl-WithInstaller.framework"];
+	NSBundle *growlBundle = [NSBundle bundleWithPath:growlPath];
 	
-	[GrowlApplicationBridge	notifyWithTitle:@"Tomato Ended"
-								description:@"Tomato Ended"
-						   notificationName:@"Bits"
-								   iconData:nil
-								   priority:1
-								   isSticky:NO
-							   clickContext:nil];
-	NSLog(@"This worked");
+	if (growlBundle && [growlBundle load]) {
+		NSLog(@"This might work");
+		[GrowlApplicationBridge setGrowlDelegate:self]; 
+		[GrowlApplicationBridge	notifyWithTitle:@"Tomato Ended"
+									description:@"Tomato Ended"
+									notificationName:@"Nio"
+									   iconData:nil
+									   priority:1
+									   isSticky:NO
+								   clickContext:nil];
+	}
+	else{
+		NSLog(@"This failed");
+	}
+	
 	
 	[[Client alloc] initRemoteHost];
 }

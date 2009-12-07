@@ -23,6 +23,9 @@
 		FA4DBF7C10CB27CE009B18B1 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DBF7B10CB27CE009B18B1 /* Growl-WithInstaller.framework */; };
 		FA4DBF8410CB27D2009B18B1 /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA4DBF7B10CB27CE009B18B1 /* Growl-WithInstaller.framework */; };
 		FA4DBF8910CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */; };
+		FAB70A9310CDBB4D003E3A72 /* grin.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB70A9210CDBB4D003E3A72 /* grin.png */; };
+		FAB70B1310CDBF28003E3A72 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB70B1210CDBF28003E3A72 /* Growl.framework */; };
+		FAB70B2210CDBF32003E3A72 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAB70B1210CDBF28003E3A72 /* Growl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +36,16 @@
 			dstSubfolderSpec = 10;
 			files = (
 				FA4DBF8410CB27D2009B18B1 /* Growl-WithInstaller.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB70B2810CDBF49003E3A72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FAB70B2210CDBF32003E3A72 /* Growl.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,8 @@
 		FA4DBF6C10CB26EF009B18B1 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
 		FA4DBF7B10CB27CE009B18B1 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
 		FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		FAB70A9210CDBB4D003E3A72 /* grin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grin.png; sourceTree = "<group>"; };
+		FAB70B1210CDBF28003E3A72 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				FA4DBF7C10CB27CE009B18B1 /* Growl-WithInstaller.framework in Frameworks */,
+				FAB70B1310CDBF28003E3A72 /* Growl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +136,7 @@
 		29B97314FDCFA39411CA2CEA /* Nio */ = {
 			isa = PBXGroup;
 			children = (
+				FAB70B1210CDBF28003E3A72 /* Growl.framework */,
 				FA4DBF5C10CB26EF009B18B1 /* Source */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -146,6 +163,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FAB70A9210CDBB4D003E3A72 /* grin.png */,
 				FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -212,6 +230,7 @@
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				FA4DBF7810CB277A009B18B1 /* CopyFiles */,
+				FAB70B2810CDBF49003E3A72 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -248,6 +267,7 @@
 				FA4DBF8910CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FAB70A9310CDBB4D003E3A72 /* grin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,6 @@
-107eba319b06ebae3b18d85c9ac1f57f a35e5ec92b5cb1e866eb1fa226772cdc ffffffffffffffffffffffffffffffff 0 /Users/macbook/Stuff/greentea/repo/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/AppController.o
+ffffffffffffffffffffffffffffffff a35e5ec92b5cb1e866eb1fa226772cdc ffffffffffffffffffffffffffffffff 0 /Users/macbook/Stuff/greentea/repo/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/AppController.o
 ffffffffffffffffffffffffffffffff 403d1e84b0aef8c09a76471e38fe307b ffffffffffffffffffffffffffffffff 102 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app
 ffffffffffffffffffffffffffffffff 9d90280c0a28173a14cd2732dbdbf46e ffffffffffffffffffffffffffffffff 0 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/MacOS/Nio
-00000000000000000000000000000000 a4e4b9a45e010789bee0721005dd1ec4 ffffffffffffffffffffffffffffffff 831 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/Resources/grin.png
-00000000000000000000000000000000 0cb8272686e7154cbbbc47884a272f06 ffffffffffffffffffffffffffffffff 381 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/Resources/Growl Registration Ticket.growlRegDict
 107eba3199a122073b18d85c9ac18b05 86da7ed8eff579f428ebd1572a0ac7b9 ffffffffffffffffffffffffffffffff 21040 /Users/macbook/Stuff/greentea/repo/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONSerializer.o
 107eba3199a122073b18d85c9ac1a540 5a954e520857bcf47e32bd8bee894b2a ffffffffffffffffffffffffffffffff 36128 /Users/macbook/Stuff/greentea/repo/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONScanner.o
 107eba31d35758ce3b18d85c9ac1923b 6159bc59191c3f55dc85206e1890d005 ffffffffffffffffffffffffffffffff 13684 /Users/macbook/Stuff/greentea/repo/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONDeserializer.o
@@ -14,7 +12,8 @@ ffffffffffffffffffffffffffffffff 9d90280c0a28173a14cd2732dbdbf46e ffffffffffffff
 107eba31d41a40a93b18d85c9ac19d76 939aada1a832ec6c61d003221dba184c ffffffffffffffffffffffffffffffff 4832 /Users/macbook/Stuff/greentea/repo/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/main.o
 000000004ac1865200000000000000cc cb879199295587b0c726572de884e90e ffffffffffffffffffffffffffffffff 204 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/Frameworks/Growl-WithInstaller.framework
 0000000004012c330000000000006fb3 107eba31d41a40a83b18d85c9ac19d0a ffffffffffffffffffffffffffffffff 34644756 /var/folders/7F/7FauJU8JGsGL8gyW+i55vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-ejwteezsxigcvxgfnskkkaxnbxyi/Nio_Prefix.pch.gch
-000000004b1b0653000000000001fb31 4030e33ccb4c4867089fa8c51c7417c0 ffffffffffffffffffffffffffffffff 26115 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj/MainMenu.nib
+00000000000000000000000000000000 0cb8272686e7154cbbbc47884a272f06 ffffffffffffffffffffffffffffffff 383 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/Resources/Growl Registration Ticket.growlRegDict
+000000004b1aecf8000000000001fb6c 4030e33ccb4c4867089fa8c51c7417c0 ffffffffffffffffffffffffffffffff 26609 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj/MainMenu.nib
 000000004b1aecf9000000000000005c 8a894490305d16f6c51f5e8c4f770933 ffffffffffffffffffffffffffffffff 92 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj/InfoPlist.strings
 00000000000000000000000000000000 c9a1ca4cf275763ebcd03a2f3ff9a1cb ffffffffffffffffffffffffffffffff 8 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/PkgInfo
 00000000000000000000000000000000 c9a1ca4cf275763ebcd03a2f3ff9a1cb ffffffffffffffffffffffffffffffff 757 /Users/macbook/Stuff/greentea/repo/Nio/build/Debug/Nio.app/Contents/Info.plist

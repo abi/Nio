@@ -59,7 +59,15 @@
 }
 
 - (IBAction)helloWorld:(id)sender{
-	NSLog(@"Hello Andrew Jones");
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/history"]];
+}
+
+- (IBAction)openHistory:(id)sender{
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/history"]];
+}
+
+- (IBAction)openNotificationSources:(id)sender{
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/sources"]];
 }
 
 @end

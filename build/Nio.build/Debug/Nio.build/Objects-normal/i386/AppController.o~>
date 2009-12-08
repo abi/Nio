@@ -1,5 +1,2 @@
-/Users/macbook/Stuff/greentea/repo/Nio/AppController.m:11:56: error: Growl-WithInstaller /GrowlApplicationBridge.h: No such file or directory
 /Users/macbook/Stuff/greentea/repo/Nio/AppController.m: In function '-[AppController awakeFromNib]':
-/Users/macbook/Stuff/greentea/repo/Nio/AppController.m:38: error: 'GrowlApplicationBridge' undeclared (first use in this function)
-/Users/macbook/Stuff/greentea/repo/Nio/AppController.m:38: error: (Each undeclared identifier is reported only once
-/Users/macbook/Stuff/greentea/repo/Nio/AppController.m:38: error: for each function it appears in.)
+/Users/macbook/Stuff/greentea/repo/Nio/AppController.m:38: warning: class 'AppController' does not implement the 'GrowlApplicationBridgeDelegate' protocol

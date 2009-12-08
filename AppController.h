@@ -17,5 +17,7 @@
 }
 
 -(IBAction)helloWorld:(id)sender;
+-(IBAction)openHistory:(id)sender;
+-(IBAction)openNotificationSources:(id)sender;
 
 @end

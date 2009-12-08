@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>FAB70B5610CDCB70003E3A72</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>Info.plist</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>FAB70B5710CDCB70003E3A72</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>Info.plist</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>FA9C5C2A10CDCCC40088347D</string>
-						<key>history</key>
-						<array>
-							<string>FAB70B5810CDCB70003E3A72</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1158, 623}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>38 88 1158 664 0 0 1280 778 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -318,8 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>5</integer>
+									<integer>18</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -359,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>FA4DBF3C10CB248C009B18B1</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AppController.m</string>
+								<string>AppController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -367,20 +325,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FA4DBF3D10CB248C009B18B1</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AppController.m</string>
+										<string>AppController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA9C5C2610CDCCC40088347D</string>
+										<string>FA9C5C4710CDD31A0088347D</string>
 										<key>history</key>
 										<array>
-											<string>FA4DBFC410CB3CFB009B18B1</string>
 											<string>FA4DBFE510CB4525009B18B1</string>
 											<string>FAB70AAE10CDBBB0003E3A72</string>
 											<string>FAB70AFF10CDBEA6003E3A72</string>
 											<string>FAB70B4210CDC8FA003E3A72</string>
 											<string>FAB70B4310CDC8FA003E3A72</string>
-											<string>FAB70B5510CDCB70003E3A72</string>
+											<string>FA9C5C4410CDD31A0088347D</string>
+											<string>FA9C5C4510CDD31A0088347D</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -391,6 +349,11 @@
 											<string>FA4DBF9110CB2C2F009B18B1</string>
 											<string>FAB70AA110CDBB65003E3A72</string>
 											<string>FAB70AB010CDBBB0003E3A72</string>
+											<string>FA9C5C3B10CDD1D10088347D</string>
+											<string>FA9C5C3C10CDD1D10088347D</string>
+											<string>FA9C5C4010CDD2C70088347D</string>
+											<string>FA9C5C4110CDD2C70088347D</string>
+											<string>FA9C5C4610CDD31A0088347D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -664,14 +627,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FAB70B0B10CDBEA6003E3A72</string>
+				<string>FA9C5C3010CDD0300088347D</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>FAB70B0C10CDBEA6003E3A72</string>
-				<string>FAB70B0D10CDBEA6003E3A72</string>
-				<string>FAB70B0E10CDBEA6003E3A72</string>
-				<string>FAB70B0F10CDBEA6003E3A72</string>
-				<string>FAB70B1010CDBEA6003E3A72</string>
+				<string>FA9C5C3110CDD0300088347D</string>
+				<string>FA9C5C3210CDD0300088347D</string>
+				<string>FA9C5C3310CDD0300088347D</string>
+				<string>FA9C5C3410CDD0300088347D</string>
+				<string>FA9C5C3510CDD0300088347D</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -702,7 +665,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>/Users/macbook/Stuff/greentea/repo/Nio/Nio.xcodeproj</string>
-		<string>FAB70B5610CDCB70003E3A72</string>
 	</array>
 	<key>WindowString</key>
 	<string>82 102 1101 676 0 0 1280 778 </string>

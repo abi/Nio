@@ -1,6 +1,6 @@
 //
 //  AppController.m
-//  Bits
+//  Nio - notify.io client
 //
 //  Created by Abimanyu on 11/24/09.
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
@@ -25,7 +25,7 @@
 	
 	[statusItem setMenu:statusMenu];
 	
-	[statusItem setToolTip:@"Bits"];
+	[statusItem setToolTip:@"notify.io"];
 	
 	[statusItem setHighlightMode:YES];
 	
@@ -33,23 +33,26 @@
 	NSString *growlPath = [[myBundle privateFrameworksPath] stringByAppendingPathComponent:@"Growl-WithInstaller.framework"];
 	NSBundle *growlBundle = [NSBundle bundleWithPath:growlPath];
 	
+	Client *client = [Client alloc];
+	
 	if (growlBundle && [growlBundle load]) {
 		NSLog(@"This might work");
 		[GrowlApplicationBridge setGrowlDelegate:self]; 
-		[GrowlApplicationBridge	notifyWithTitle:@"Tomato Ended"
-									description:@"Tomato Ended"
+		[GrowlApplicationBridge	notifyWithTitle:@"Nio started"
+									description:@"Receiving notifications from notify.io"
 									notificationName:@"Nio"
 									   iconData:nil
 									   priority:1
 									   isSticky:NO
 								   clickContext:nil];
+		[GrowlApplicationBridge setGrowlDelegate:client]; 
 	}
 	else{
-		NSLog(@"This failed");
+		NSLog(@"Could not load Growl.framework");
 	}
 	
 	
-	[[Client alloc] initRemoteHost];
+	[client initRemoteHost];
 }
 
 - (void) dealloc{

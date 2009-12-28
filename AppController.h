@@ -1,6 +1,6 @@
 //
 //  AppController.h
-//  Bits
+//  Nio - notify.io client
 //
 //  Created by Abimanyu on 11/24/09.
 //  Copyright 2009 __MyCompanyName__. All rights reserved.

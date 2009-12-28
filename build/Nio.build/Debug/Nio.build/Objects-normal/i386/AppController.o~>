@@ -1,2 +1,0 @@
-/Users/macbook/Stuff/greentea/repo/Nio/AppController.m: In function '-[AppController awakeFromNib]':
-/Users/macbook/Stuff/greentea/repo/Nio/AppController.m:38: warning: class 'AppController' does not implement the 'GrowlApplicationBridgeDelegate' protocol

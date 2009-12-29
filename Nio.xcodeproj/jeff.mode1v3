@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1F47217410EAA5DB001CA131</string>
+										<string>1FA1971210EAA67D00BBAA37</string>
 										<key>history</key>
 										<array>
 											<string>1FF3F62910E8BB08009C508B</string>
@@ -342,7 +342,7 @@
 											<string>1F47217010EAA5DB001CA131</string>
 											<string>1F47217110EAA5DB001CA131</string>
 											<string>1F47217210EAA5DB001CA131</string>
-											<string>1F47217310EAA5DB001CA131</string>
+											<string>1F47217410EAA5DB001CA131</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,14 +354,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {884, 542}}</string>
+								<string>{{0, 0}, {884, 536}}</string>
 								<key>RubberWindowFrame</key>
 								<string>261 73 1092 805 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>542pt</string>
+							<string>536pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -374,14 +374,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 547}, {884, 217}}</string>
+								<string>{{0, 541}, {884, 223}}</string>
 								<key>RubberWindowFrame</key>
 								<string>261 73 1092 805 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>217pt</string>
+							<string>223pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -400,9 +400,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1F47217510EAA5DB001CA131</string>
+				<string>1FA1971310EAA67D00BBAA37</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>1F47217610EAA5DB001CA131</string>
+				<string>1FA1971410EAA67D00BBAA37</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -540,11 +540,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1F47217F10EAA5DB001CA131</string>
-		<string>1F47218010EAA5DB001CA131</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1FD9282610E31E0B008D5C22</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jeff/Projects/Nio/Nio.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -625,7 +621,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1FD9282610E31E0B008D5C22</string>
-				<string>1F47217710EAA5DB001CA131</string>
+				<string>1FA1971510EAA67D00BBAA37</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

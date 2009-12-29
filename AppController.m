@@ -1,9 +1,8 @@
 //
 //  AppController.m
-//  Nio - notify.io client
+//  Nio - Notify.io client
 //
-//  Created by Abimanyu on 11/24/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009 GliderLab. All rights reserved.
 //
 
 #import "AppController.h"
@@ -11,6 +10,17 @@
 #import "Growl-WithInstaller/GrowlApplicationBridge.h"
 
 @implementation AppController
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+	NSLog(@"launched");
+}
+
+- (BOOL)application:(NSApplication *)theApplication openFile:(NSString *)filename
+{
+	NSLog(@"opened file: %@", filename);
+	return YES;
+}
 
 - (void) awakeFromNib{
 	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength] retain];
@@ -36,7 +46,6 @@
 	Client *client = [Client alloc];
 	
 	if (growlBundle && [growlBundle load]) {
-		NSLog(@"This might work");
 		[GrowlApplicationBridge setGrowlDelegate:self]; 
 		[GrowlApplicationBridge	notifyWithTitle:@"Nio started"
 									description:@"Receiving notifications from notify.io"
@@ -61,16 +70,16 @@
 	[super dealloc];
 }
 
-- (IBAction)helloWorld:(id)sender{
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/history"]];
-}
-
 - (IBAction)openHistory:(id)sender{
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/history"]];
 }
 
-- (IBAction)openNotificationSources:(id)sender{
+- (IBAction)openSources:(id)sender{
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/sources"]];
+}
+
+- (IBAction)openSettings:(id)sender{
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/settings"]];
 }
 
 @end

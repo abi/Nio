@@ -7,35 +7,71 @@
 			sepNavVisRange = "{0, 45}";
 		};
 	};
-	1F0E1D4F10EA0AB7002DB4B0 /* PBXTextBookmark */ = {
+	1F3D1BD410EA1F01002054F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
+		name = "AppController.m: 44";
+		rLen = 0;
+		rLoc = 1456;
+		rType = 0;
+		vrLen = 1356;
+		vrLoc = 0;
+	};
+	1F47211B10EA5D21001CA131 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4DBF4A10CB25C1009B18B1 /* Client.h */;
+		name = "Client.h: 18";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 0;
+	};
+	1F47213C10EA757A001CA131 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA4DBF4B10CB25C1009B18B1 /* Client.m */;
-		name = "Client.m: 104";
-		rLen = 0;
-		rLoc = 3202;
+		name = "Client.m: 47";
+		rLen = 1;
+		rLoc = 1266;
 		rType = 0;
-		vrLen = 1540;
-		vrLoc = 3199;
+		vrLen = 968;
+		vrLoc = 869;
 	};
-	1F0E1D7810EA0B48002DB4B0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
-		name = "AppController.m: 44";
-		rLen = 0;
-		rLoc = 1456;
-		rType = 0;
-		vrLen = 1231;
-		vrLoc = 561;
+	1F47214610EA7D07001CA131 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F47213210EA753A001CA131 /* APPL.icns */;
 	};
-	1F5ADB0E10EA0C1F00D70F26 /* PBXTextBookmark */ = {
+	1F47214E10EA7DED001CA131 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = FA4DBF4710CB24DD009B18B1 /* AppController.m */;
-		name = "AppController.m: 44";
+		fRef = FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */;
+		name = "Growl Registration Ticket.growlRegDict: 1";
 		rLen = 0;
-		rLoc = 1456;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1118;
-		vrLoc = 674;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	1F47214F10EA7DED001CA131 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/jeff/Projects/Nio/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1F47215010EA7DED001CA131 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/jeff/Projects/Nio/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
 	};
 	1FD9281110E31DF8008D5C22 /* Nio */ = {
 		isa = PBXExecutable;
@@ -162,16 +198,6 @@
 		path = /Users/jeff/Projects/Nio/Growl.framework/Headers/Growl.h;
 		sourceTree = "<absolute>";
 	};
-	1FF3F65E10E8BFC3009C508B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA4DBF4A10CB25C1009B18B1 /* Client.h */;
-		name = "Client.h: 13";
-		rLen = 0;
-		rLoc = 291;
-		rType = 0;
-		vrLen = 436;
-		vrLoc = 0;
-	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 1FD9281110E31DF8008D5C22 /* Nio */;
@@ -220,20 +246,23 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 283777416;
-			PBXWorkspaceStateSaveDate = 283777416;
+			PBXPerProjectTemplateStateSaveDate = 283803128;
+			PBXWorkspaceStateSaveDate = 283803128;
 		};
 		perUserProjectItems = {
-			1F0E1D4F10EA0AB7002DB4B0 = 1F0E1D4F10EA0AB7002DB4B0 /* PBXTextBookmark */;
-			1F0E1D7810EA0B48002DB4B0 = 1F0E1D7810EA0B48002DB4B0 /* PBXTextBookmark */;
-			1F5ADB0E10EA0C1F00D70F26 = 1F5ADB0E10EA0C1F00D70F26 /* PBXTextBookmark */;
+			1F3D1BD410EA1F01002054F2 = 1F3D1BD410EA1F01002054F2 /* PBXTextBookmark */;
+			1F47211B10EA5D21001CA131 = 1F47211B10EA5D21001CA131 /* PBXTextBookmark */;
+			1F47213C10EA757A001CA131 = 1F47213C10EA757A001CA131 /* PBXTextBookmark */;
+			1F47214610EA7D07001CA131 = 1F47214610EA7D07001CA131 /* PBXBookmark */;
+			1F47214E10EA7DED001CA131 = 1F47214E10EA7DED001CA131 /* PBXTextBookmark */;
+			1F47214F10EA7DED001CA131 = 1F47214F10EA7DED001CA131 /* PlistBookmark */;
+			1F47215010EA7DED001CA131 = 1F47215010EA7DED001CA131 /* PlistBookmark */;
 			1FF3F62910E8BB08009C508B = 1FF3F62910E8BB08009C508B /* PBXTextBookmark */;
 			1FF3F62A10E8BB08009C508B = 1FF3F62A10E8BB08009C508B /* PBXTextBookmark */;
 			1FF3F62B10E8BB08009C508B = 1FF3F62B10E8BB08009C508B /* PBXTextBookmark */;
 			1FF3F62D10E8BB08009C508B = 1FF3F62D10E8BB08009C508B /* PBXTextBookmark */;
 			1FF3F62F10E8BB08009C508B = 1FF3F62F10E8BB08009C508B /* PBXTextBookmark */;
 			1FF3F63110E8BB08009C508B = 1FF3F63110E8BB08009C508B /* PBXTextBookmark */;
-			1FF3F65E10E8BFC3009C508B = 1FF3F65E10E8BFC3009C508B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1FD9283210E31E0B008D5C22 /* Source Control */;
 		userBuildSettings = {
@@ -276,22 +305,22 @@
 	};
 	FA4DBF4A10CB25C1009B18B1 /* Client.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {823, 522}}";
-			sepNavSelRange = "{291, 0}";
-			sepNavVisRange = "{0, 436}";
+			sepNavIntBoundsRect = "{{0, 0}, {823, 510}}";
+			sepNavSelRange = "{456, 0}";
+			sepNavVisRange = "{0, 462}";
 		};
 	};
 	FA4DBF4B10CB25C1009B18B1 /* Client.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {873, 1872}}";
-			sepNavSelRange = "{4823, 0}";
-			sepNavVisRange = "{3694, 1134}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 2353}}";
+			sepNavSelRange = "{1266, 2}";
+			sepNavVisRange = "{869, 1011}";
 			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
 		};
 	};
 	FA4DBF8810CB29D4009B18B1 /* Growl Registration Ticket.growlRegDict */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1167, 541}}";
+			sepNavIntBoundsRect = "{{0, 0}, {823, 493}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 381}";
 		};

@@ -1,18 +1,17 @@
 //
 //  Client.m
-//  Nio - notify.io client
+//  Nio - Notify.io client
 //
-//  Created by Abimanyu on 11/24/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009 GliderLab. All rights reserved.
 //
 
 #import "Client.h"
 #import "CJSONDeserializer.h"
 
-/*@interface Client ()
-// Private methods
-- (void)initRemoteHost:(NSString *)path;
-@end*/
+@interface Client ()
+- (void)initRemoteHost;
+- (void)makeConnection;
+@end
 
 @implementation Client
 
@@ -44,7 +43,7 @@
 	NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:url];
 	
 	// Set the timeout to a day
-	[urlRequest setTimeoutInterval:86400.0];
+	[urlRequest setTimeoutInterval:900.0];
 	
 	// Keep this around for reconnects
 	notifyReq = urlRequest;
@@ -63,10 +62,21 @@
 	NSLog(@"received");
 }
 
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+{
+	NSLog(@"connection finished");
+}
+
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
 	NSLog(@"did fail with error: %@", error);
-	[self performSelector:@selector(makeConnection) withObject:nil afterDelay:3.0];
+	// if hostname not found or net connection offline, try again after delay
+	if([error code] == -1003 || [error code] == -1009) {
+		[self performSelector:@selector(makeConnection) withObject:nil afterDelay:3.0];
+	}
+	else{
+		[self makeConnection];
+	}
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data

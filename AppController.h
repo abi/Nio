@@ -1,9 +1,8 @@
 //
 //  AppController.h
-//  Nio - notify.io client
+//  Nio - Notify.io client
 //
-//  Created by Abimanyu on 11/24/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009 GliderLab. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
@@ -16,8 +15,8 @@
 	NSImage *statusHighlightImage;
 }
 
--(IBAction)helloWorld:(id)sender;
 -(IBAction)openHistory:(id)sender;
--(IBAction)openNotificationSources:(id)sender;
+-(IBAction)openSources:(id)sender;
+-(IBAction)openSettings:(id)sender;
 
 @end

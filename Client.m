@@ -44,12 +44,17 @@
 	NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:url];
 	
 	// Set the timeout to a day
-	[urlRequest setTimeoutInterval:(NSTimeInterval)86400];
+	[urlRequest setTimeoutInterval:86400.0];
 	
 	// Keep this around for reconnects
 	notifyReq = urlRequest;
 	
-	notifyConn = [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self startImmediately:YES];
+	[self makeConnection];
+}
+
+- (void)makeConnection
+{
+	notifyConn = [[NSURLConnection alloc] initWithRequest:notifyReq delegate:self startImmediately:YES];
 	NSLog(@"conn: %@", notifyConn);
 }
 
@@ -61,8 +66,7 @@
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
 	NSLog(@"did fail with error: %@", error);
-	notifyConn = [[NSURLConnection alloc] initWithRequest:notifyReq delegate:self startImmediately:YES];
-	NSLog(@"conn: %@", notifyConn);
+	[self performSelector:@selector(makeConnection) withObject:nil afterDelay:3.0];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data

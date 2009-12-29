@@ -9,10 +9,10 @@
 #import "Client.h"
 #import "CJSONDeserializer.h"
 
-@interface Client ()
+/*@interface Client ()
 // Private methods
 - (void)initRemoteHost:(NSString *)path;
-@end
+@end*/
 
 @implementation Client
 
@@ -43,6 +43,12 @@
 	NSURL *url = [NSURL URLWithString:urlString];
 	NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:url];
 	
+	// Set the timeout to a day
+	[urlRequest setTimeoutInterval:(NSTimeInterval)86400];
+	
+	// Keep this around for reconnects
+	notifyReq = urlRequest;
+	
 	notifyConn = [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self startImmediately:YES];
 	NSLog(@"conn: %@", notifyConn);
 }
@@ -55,11 +61,12 @@
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
 	NSLog(@"did fail with error: %@", error);
+	notifyConn = [[NSURLConnection alloc] initWithRequest:notifyReq delegate:self startImmediately:YES];
+	NSLog(@"conn: %@", notifyConn);
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
-	//NSDictionary *messageDict = [[CJSONDeserializer deserializer] deserializeAsDictionary:jsonData error:&error];
 	if([connection isEqualTo:notifyConn])
 	{
 		

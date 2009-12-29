@@ -1,7 +1,7 @@
 TNio
 v7
 r0
-t283689132.704644
+t283778723.823042
 cCheck dependencies
 cProcessInfoPlistFile /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Info.plist Info.plist
 cCpResource "build/Debug/Nio.app/Contents/Resources/Growl Registration Ticket.growlRegDict" "Growl Registration Ticket.growlRegDict"
@@ -64,16 +64,16 @@ i"Client.h"
 i"Growl-WithInstaller/GrowlApplicationBridge.h"
 
 N/Users/jeff/Projects/Nio/Client.h
-c000000004B38883500000000000001B4
-t1261996085
-s436
+c000000004B39E65700000000000001CE
+t1262085719
+s462
 i<Cocoa/Cocoa.h>
 i"Growl-WithInstaller/GrowlApplicationBridge.h"
 
 N/Users/jeff/Projects/Nio/Client.m
-c000000004B38892600000000000012D8
-t1261996326
-s4824
+c000000004B39E71C0000000000001388
+t1262085916
+s5000
 i"Client.h"
 i"CJSONDeserializer.h"
 
@@ -223,92 +223,104 @@ s5872
 i"CJSONSerializer.h"
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app
-t1261996332
+t1262085923
 s102
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Frameworks/Growl-WithInstaller.framework
-t1261625470
+t1262081143
 s204
 
+N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Frameworks/Growl-WithInstaller.i
+t2
+s0
+
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Frameworks/Growl.framework
-t1261625513
+t1262081143
 s204
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Info.plist
-t1261627010
+t1262081142
 s801
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/MacOS/Nio
-t1261996332
+t1262085923
 s51428
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/PkgInfo
-t1261627010
+t1262081142
 s8
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1261625470
+t1262081142
 s92
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj/MainMenu.nib
-t1261625513
-s26971
+t1262081143
+s28619
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/Growl Registration Ticket.growlRegDict
-t1261625470
+t1262081142
 s381
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/grin.png
-t1261625513
+t1262081142
 s831
 
 N/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/notifyio-icon.png
 t1261627391
 s350
 
+N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.o
+t2
+s0
+
+N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.ob
+t2
+s0
+
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/AppController.o
-t1261996098
-s21636
+t1262085724
+s21796
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner.o
-t1261627014
+t1262080557
 s21604
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner_Extensions.o
-t1261627014
+t1262080558
 s9264
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONDeserializer.o
-t1261627015
+t1262080559
 s10584
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONScanner.o
-t1261627015
+t1262080559
 s31348
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONSerializer.o
-t1261627015
+t1262080559
 s18976
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/Client.o
-t1261996332
-s20500
+t1262085923
+s20996
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/NSCharacterSet_Extensions.o
-t1261627015
+t1262080558
 s6348
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
-t1261627015
+t1262080559
 s6588
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/Nio.LinkFileList
-c000000004B32E68200000000000003BA
-t1261627010
+c000000004B39D1F700000000000003BA
+t1262080503
 s954
 
 N/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/main.o
-t1261627014
+t1262080550
 s4836
 
 N/Users/jeff/Projects/Nio/grin.png
@@ -336,13 +348,73 @@ c000000004B32E0A90000000000000383
 t1261625513
 s899
 
+C<C0021:'Gcc.FixAndContinue Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.o':P13:W0>
+s283773658.326422
+e283773658.833566
+r1
+xGcc.FixAndContinue
+x/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.o
+xGrowl-WithInstaller.framework
+lSLF07#2@37"Compile Growl-WithInstaller.framework283773658#283773658#0(0"0(0#0#54"/Users/jeff/Projects/Nio/Growl-WithInstaller.framework6877671097297368064#300"    cd /Users/jeff/Projects/Nio    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeff/Projects/Nio/Growl-WithInstaller.framework /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Frameworks0#
+
+C<C0022:'Ld.FixAndContinue Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.ob':P13:W0>
+s283773658.833682
+e283773658.848045
+r0
+xLd.FixAndContinue
+x/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.ob
+x/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.o
+o/Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp: unrecognized option '-bundle'
+ousage: /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp [-v] [-V] [[-exclude <name>] ...] [-strip-debug-symbols] [-preserve-metadata] [-resolve-src-symlinks] <src> [... <src>] <dst>
+o
+o    -v                       print a line of output for every source
+o                             entry copied
+o
+o    -V                       print a line of output for every entry copied
+o
+o    -exclude <pattern>       skip entries matching <pattern>;  however, files
+o                             passed as arguments are always copied
+o
+o    -strip-debug-symbols     strips out debug symbols from any executables
+o                             copied
+o
+o    -preserve-uid-gid-mode   preserves the uid, gid, and mode of copied files
+o                             and directories
+o
+o    -preserve-timestamps     preserves the timestamps of copied files and
+o                             directories
+o
+o    -preserve-hfs-data       preserves any HFS+ info, such as resource forks
+o
+o    -resolve-src-symlinks    resolves the first level of any symlink source
+o                             entries
+o
+o    -chmod <mode>            attempt to change mode of all copied files
+o
+o    -chown <owner>           attempt to change owner of all copied files
+o                             (not yet implemented)
+o
+o    -chgrp <group>           attempt to change group of all copied files
+o                             (not yet implemented)
+o
+lSLF07#2@120"Link /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.ob283773658#283773658#0(1626"/Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp: unrecognized option '-bundle'usage: /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp [-v] [-V] [[-exclude <name>] ...] [-strip-debug-symbols] [-preserve-metadata] [-resolve-src-symlinks] <src> [... <src>] <dst>    -v                       print a line of output for every source                             entry copied    -V                       print a line of output for every entry copied    -exclude <pattern>       skip entries matching <pattern>;  however, files                             passed as arguments are always copied    -strip-debug-symbols     strips out debug symbols from any executables                             copied    -preserve-uid-gid-mode   preserves the uid, gid, and mode of copied files                             and directories    -preserve-timestamps     preserves the timestamps of copied files and                             directories    -preserve-hfs-data       preserves any HFS+ info, such as resource forks    -resolve-src-symlinks    resolves the first level of any symlink source                             entries    -chmod <mode>            attempt to change mode of all copied files    -chown <owner>           attempt to change owner of all copied files                             (not yet implemented)    -chgrp <group>           attempt to change group of all copied files                             (not yet implemented)Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1283773658#18446744073709551615#0#0(1@0"0(0#0#115"/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.ob140735387111667#358"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -bundle -flat_namespace -undefined suppress /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.o -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/FixedFiles/Growl-WithInstaller_1F0E1D6010EA0ADA002DB4B0.ob1#
+
+C<C0023:'PBXCp Growl-WithInstaller.framework':P13:W0>
+s283773679.563833
+e283773679.762123
+r1
+xPBXCp
+xbuild/Debug/Nio.app/Contents/Frameworks/Growl-WithInstaller.framework
+xGrowl-WithInstaller.framework
+lSLF07#2@34"Copy Growl-WithInstaller.framework283773679#283773679#0(0"0(0#0#54"/Users/jeff/Projects/Nio/Growl-WithInstaller.framework30681189080760392#300"    cd /Users/jeff/Projects/Nio    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeff/Projects/Nio/Growl-WithInstaller.framework /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Frameworks0#
+
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies283689132#283689132#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies283778723#283778723#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/AppController.o /Users/jeff/Projects/Nio/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283688898.777978
-e283688898.994169
+s283778523.954295
+e283778524.172140
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/AppController.o
@@ -357,11 +429,11 @@ o/Users/jeff/Projects/Nio/AppController.m:55: warning: 'Client' may not respond 
 o/Users/jeff/Projects/Nio/AppController.m:55: warning: (Messages without a matching method signature
 o/Users/jeff/Projects/Nio/AppController.m:55: warning: will be assumed to return 'id' and accept
 o/Users/jeff/Projects/Nio/AppController.m:55: warning: '...' as arguments.)
-lSLF07#2@48"Compile /Users/jeff/Projects/Nio/AppController.m283688898#283688899#0(599"/Users/jeff/Projects/Nio/AppController.m: In function '-[AppController awakeFromNib]':/Users/jeff/Projects/Nio/AppController.m:40: warning: class 'AppController' does not implement the 'GrowlApplicationBridgeDelegate' protocol/Users/jeff/Projects/Nio/AppController.m:55: warning: 'Client' may not respond to '-initRemoteHost'/Users/jeff/Projects/Nio/AppController.m:55: warning: (Messages without a matching method signature/Users/jeff/Projects/Nio/AppController.m:55: warning: will be assumed to return 'id' and accept/Users/jeff/Projects/Nio/AppController.m:55: warning: '...' as arguments.)3(22@86"Class 'AppController' does not implement the 'GrowlApplicationBridgeDelegate' protocol283688898#87#141#0(6@40"/Users/jeff/Projects/Nio/AppController.m283688599#40#0#40#0#45"class '*' does not implement the '*' protocol0(22@45"'Client' may not respond to '-initRemoteHost'283688898#228#100#0(6@40"/Users/jeff/Projects/Nio/AppController.m283688599#55#0#55#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)283688898#328#100#0(6@40"/Users/jeff/Projects/Nio/AppController.m283688599#55#0#55#0#0"0(0#0#40"/Users/jeff/Projects/Nio/AppController.m4300885448#1253"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/AppController.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/AppController.o0#
+lSLF07#2@48"Compile /Users/jeff/Projects/Nio/AppController.m283778523#283778524#0(599"/Users/jeff/Projects/Nio/AppController.m: In function '-[AppController awakeFromNib]':/Users/jeff/Projects/Nio/AppController.m:40: warning: class 'AppController' does not implement the 'GrowlApplicationBridgeDelegate' protocol/Users/jeff/Projects/Nio/AppController.m:55: warning: 'Client' may not respond to '-initRemoteHost'/Users/jeff/Projects/Nio/AppController.m:55: warning: (Messages without a matching method signature/Users/jeff/Projects/Nio/AppController.m:55: warning: will be assumed to return 'id' and accept/Users/jeff/Projects/Nio/AppController.m:55: warning: '...' as arguments.)3(22@86"Class 'AppController' does not implement the 'GrowlApplicationBridgeDelegate' protocol283778524#87#141#0(6@40"/Users/jeff/Projects/Nio/AppController.m283688599#40#0#40#0#45"class '*' does not implement the '*' protocol0(22@45"'Client' may not respond to '-initRemoteHost'283778524#228#100#0(6@40"/Users/jeff/Projects/Nio/AppController.m283688599#55#0#55#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)283778524#328#100#0(6@40"/Users/jeff/Projects/Nio/AppController.m283688599#55#0#55#0#0"0(0#0#40"/Users/jeff/Projects/Nio/AppController.m4300885448#1253"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/AppController.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/AppController.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner.o /Users/jeff/Projects/Nio/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283319814.707031
-e283319814.962871
+s283773350.695875
+e283773357.500061
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner.o
@@ -370,11 +442,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/jeff/Projects/Nio/Source/CDataScanner.m283319814#283319814#0(0"0(0#0#46"/Users/jeff/Projects/Nio/Source/CDataScanner.m4300885448#1258"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/CDataScanner.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner.o0#
+lSLF07#2@54"Compile /Users/jeff/Projects/Nio/Source/CDataScanner.m283773350#283773357#0(0"0(0#0#46"/Users/jeff/Projects/Nio/Source/CDataScanner.m4300885448#1258"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/CDataScanner.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/jeff/Projects/Nio/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283319814.713329
-e283319814.890460
+s283773357.500296
+e283773358.967878
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner_Extensions.o
@@ -383,11 +455,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/jeff/Projects/Nio/Source/Extensions/CDataScanner_Extensions.m283319814#283319814#0(0"0(0#0#68"/Users/jeff/Projects/Nio/Source/Extensions/CDataScanner_Extensions.m4300885448#1291"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/Extensions/CDataScanner_Extensions.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner_Extensions.o0#
+lSLF07#2@76"Compile /Users/jeff/Projects/Nio/Source/Extensions/CDataScanner_Extensions.m283773357#283773358#0(0"0(0#0#68"/Users/jeff/Projects/Nio/Source/Extensions/CDataScanner_Extensions.m4300885448#1291"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/Extensions/CDataScanner_Extensions.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CDataScanner_Extensions.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONDeserializer.o /Users/jeff/Projects/Nio/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283319815.059318
-e283319815.249027
+s283773358.967972
+e283773359.223897
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONDeserializer.o
@@ -396,11 +468,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/jeff/Projects/Nio/Source/JSON/CJSONDeserializer.m283319815#283319815#0(0"0(0#0#56"/Users/jeff/Projects/Nio/Source/JSON/CJSONDeserializer.m4300885448#1273"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/JSON/CJSONDeserializer.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONDeserializer.o0#
+lSLF07#2@64"Compile /Users/jeff/Projects/Nio/Source/JSON/CJSONDeserializer.m283773358#283773359#0(0"0(0#0#56"/Users/jeff/Projects/Nio/Source/JSON/CJSONDeserializer.m4300885448#1273"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/JSON/CJSONDeserializer.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONDeserializer.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONScanner.o /Users/jeff/Projects/Nio/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283319815.125893
-e283319815.351690
+s283773359.142139
+e283773359.621267
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONScanner.o
@@ -409,11 +481,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/jeff/Projects/Nio/Source/JSON/CJSONScanner.m283319815#283319815#0(0"0(0#0#51"/Users/jeff/Projects/Nio/Source/JSON/CJSONScanner.m4300885448#1263"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/JSON/CJSONScanner.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONScanner.o0#
+lSLF07#2@59"Compile /Users/jeff/Projects/Nio/Source/JSON/CJSONScanner.m283773359#283773359#0(0"0(0#0#51"/Users/jeff/Projects/Nio/Source/JSON/CJSONScanner.m4300885448#1263"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/JSON/CJSONScanner.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONScanner.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONSerializer.o /Users/jeff/Projects/Nio/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283319815.249148
-e283319815.426851
+s283773359.224002
+e283773359.661895
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONSerializer.o
@@ -422,11 +494,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/jeff/Projects/Nio/Source/JSON/CJSONSerializer.m283319815#283319815#0(0"0(0#0#54"/Users/jeff/Projects/Nio/Source/JSON/CJSONSerializer.m4300885448#1269"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/JSON/CJSONSerializer.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONSerializer.o0#
+lSLF07#2@62"Compile /Users/jeff/Projects/Nio/Source/JSON/CJSONSerializer.m283773359#283773359#0(0"0(0#0#54"/Users/jeff/Projects/Nio/Source/JSON/CJSONSerializer.m4300885448#1269"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/JSON/CJSONSerializer.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/CJSONSerializer.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/Client.o /Users/jeff/Projects/Nio/Client.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283689132.479772
-e283689132.655120
+s283778723.229820
+e283778723.749121
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/Client.o
@@ -435,13 +507,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/jeff/Projects/Nio/Client.m:149: warning: incomplete implementation of class 'Client'
-o/Users/jeff/Projects/Nio/Client.m:149: warning: method definition for '-initRemoteHost:' not found
-lSLF07#2@41"Compile /Users/jeff/Projects/Nio/Client.m283689132#283689132#0(191"/Users/jeff/Projects/Nio/Client.m:149: warning: incomplete implementation of class 'Client'/Users/jeff/Projects/Nio/Client.m:149: warning: method definition for '-initRemoteHost:' not found2(22@43"Incomplete implementation of class 'Client'283689132#0#92#0(6@33"/Users/jeff/Projects/Nio/Client.m283689126#149#0#149#0#38"incomplete implementation of class '*'0(22@50"Method definition for '-initRemoteHost:' not found283689132#92#99#0(6@33"/Users/jeff/Projects/Nio/Client.m283689126#149#0#149#0#35"method definition for '*' not found0(0#0#33"/Users/jeff/Projects/Nio/Client.m4300885448#1239"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Client.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/Client.o0#
+lSLF07#2@41"Compile /Users/jeff/Projects/Nio/Client.m283778723#283778723#0(0"0(0#0#33"/Users/jeff/Projects/Nio/Client.m4300885448#1239"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Client.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/Client.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/jeff/Projects/Nio/Source/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283319814.890574
-e283319815.059211
+s283773357.585034
+e283773358.960517
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/NSCharacterSet_Extensions.o
@@ -450,11 +520,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/jeff/Projects/Nio/Source/Extensions/NSCharacterSet_Extensions.m283319814#283319815#0(0"0(0#0#70"/Users/jeff/Projects/Nio/Source/Extensions/NSCharacterSet_Extensions.m4300885448#1295"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/Extensions/NSCharacterSet_Extensions.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/NSCharacterSet_Extensions.o0#
+lSLF07#2@78"Compile /Users/jeff/Projects/Nio/Source/Extensions/NSCharacterSet_Extensions.m283773357#283773358#0(0"0(0#0#70"/Users/jeff/Projects/Nio/Source/Extensions/NSCharacterSet_Extensions.m4300885448#1295"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/Extensions/NSCharacterSet_Extensions.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/NSCharacterSet_Extensions.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/jeff/Projects/Nio/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283319814.962990
-e283319815.125781
+s283773358.960625
+e283773359.141909
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
@@ -463,11 +533,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/jeff/Projects/Nio/Source/Extensions/NSDictionary_JSONExtensions.m283319814#283319815#0(0"0(0#0#72"/Users/jeff/Projects/Nio/Source/Extensions/NSDictionary_JSONExtensions.m4300885448#1299"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/Extensions/NSDictionary_JSONExtensions.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
+lSLF07#2@80"Compile /Users/jeff/Projects/Nio/Source/Extensions/NSDictionary_JSONExtensions.m283773358#283773359#0(0"0(0#0#72"/Users/jeff/Projects/Nio/Source/Extensions/NSDictionary_JSONExtensions.m4300885448#1299"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/Source/Extensions/NSDictionary_JSONExtensions.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
 
 CCompileC build/Nio.build/Debug/Nio.build/Objects-normal/i386/main.o /Users/jeff/Projects/Nio/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283319814.215058
-e283319814.487418
+s283773304.605125
+e283773350.004107
 r1
 xCompileC
 xbuild/Nio.build/Debug/Nio.build/Objects-normal/i386/main.o
@@ -476,19 +546,42 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@39"Compile /Users/jeff/Projects/Nio/main.m283319814#283319814#0(0"0(0#0#31"/Users/jeff/Projects/Nio/main.m4300885448#1235"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/main.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/main.o0#
+lSLF07#2@39"Compile /Users/jeff/Projects/Nio/main.m283773304#283773350#0(0"0(0#0#31"/Users/jeff/Projects/Nio/main.m4300885448#1235"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -include /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch -c /Users/jeff/Projects/Nio/main.m -o /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/jeff/Projects/Nio/English.lproj/MainMenu.xib
-r0
+s283773942.534899
+e283773943.406360
+r1
+xCompileXIB
+x/Users/jeff/Projects/Nio/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib283773942#283773943#0(0"0(0#0#51"/Users/jeff/Projects/Nio/English.lproj/MainMenu.xib4300885448#281"    cd /Users/jeff/Projects/Nio    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jeff/Projects/Nio/English.lproj/MainMenu.xib0#
 
 CCopyStringsFile /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-r0
+s283773942.501701
+e283773942.971871
+r1
+xCopyStringsFile
+x/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings283773942#283773942#0(0"0(0#0#56"/Users/jeff/Projects/Nio/English.lproj/InfoPlist.strings4300885448#334"    cd /Users/jeff/Projects/Nio    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources/English.lproj0#
 
 CCpResource "build/Debug/Nio.app/Contents/Resources/Growl Registration Ticket.growlRegDict" "Growl Registration Ticket.growlRegDict"
-r0
+s283773942.500790
+e283773942.534756
+r1
+xCpResource
+xbuild/Debug/Nio.app/Contents/Resources/Growl Registration Ticket.growlRegDict
+xGrowl Registration Ticket.growlRegDict
+lSLF07#2@43"Copy Growl Registration Ticket.growlRegDict283773942#283773942#0(0"0(0#0#63"/Users/jeff/Projects/Nio/Growl Registration Ticket.growlRegDict4300885448#310"    cd /Users/jeff/Projects/Nio    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/jeff/Projects/Nio/Growl Registration Ticket.growlRegDict" /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources0#
 
 CCpResource build/Debug/Nio.app/Contents/Resources/grin.png grin.png
-r0
+s283773942.972004
+e283773942.979783
+r1
+xCpResource
+xbuild/Debug/Nio.app/Contents/Resources/grin.png
+xgrin.png
+lSLF07#2@13"Copy grin.png283773942#283773942#0(0"0(0#0#33"/Users/jeff/Projects/Nio/grin.png4300885448#278"    cd /Users/jeff/Projects/Nio    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeff/Projects/Nio/grin.png /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources0#
 
 CCpResource build/Debug/Nio.app/Contents/Resources/notifyio-icon.png notifyio-icon.png
 s283320191.586468
@@ -500,29 +593,41 @@ xnotifyio-icon.png
 lSLF07#2@22"Copy notifyio-icon.png283320191#283320191#0(0"0(0#0#42"/Users/jeff/Projects/Nio/notifyio-icon.png31244216342741072#287"    cd /Users/jeff/Projects/Nio    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeff/Projects/Nio/notifyio-icon.png /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Resources0#
 
 CLd /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/MacOS/Nio normal i386
-s283689132.655291
-e283689132.700659
+s283778723.749215
+e283778723.819921
 r1
 xLd
 x/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/MacOS/Nio
 xnormal
 xi386
-lSLF07#2@68"Link /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/MacOS/Nio283689132#283689132#0(0"0(0#0#0"4300885448#523"    cd /Users/jeff/Projects/Nio    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -filelist /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/Nio.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Growl-WithInstaller -framework Growl -o /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/MacOS/Nio0#
+lSLF07#2@68"Link /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/MacOS/Nio283778723#283778723#0(0"0(0#0#0"4300885448#523"    cd /Users/jeff/Projects/Nio    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -filelist /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Objects-normal/i386/Nio.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Growl-WithInstaller -framework Growl -o /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/MacOS/Nio0#
 
 CPBXCp build/Debug/Nio.app/Contents/Frameworks/Growl-WithInstaller.framework Growl-WithInstaller.framework
-r0
+s283773943.548611
+e283773943.787925
+r1
+xPBXCp
+xbuild/Debug/Nio.app/Contents/Frameworks/Growl-WithInstaller.framework
+xGrowl-WithInstaller.framework
+lSLF07#2@34"Copy Growl-WithInstaller.framework283773943#283773943#0(0"0(0#0#54"/Users/jeff/Projects/Nio/Growl-WithInstaller.framework4300885448#300"    cd /Users/jeff/Projects/Nio    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeff/Projects/Nio/Growl-WithInstaller.framework /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Frameworks0#
 
 CPBXCp build/Debug/Nio.app/Contents/Frameworks/Growl.framework Growl.framework
-r0
+s283773943.788045
+e283773943.796284
+r1
+xPBXCp
+xbuild/Debug/Nio.app/Contents/Frameworks/Growl.framework
+xGrowl.framework
+lSLF07#2@20"Copy Growl.framework283773943#283773943#0(0"0(0#0#40"/Users/jeff/Projects/Nio/Growl.framework4300885448#286"    cd /Users/jeff/Projects/Nio    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeff/Projects/Nio/Growl.framework /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Frameworks0#
 
 CProcessInfoPlistFile /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Info.plist Info.plist
-s283319810.216942
-e283319810.243475
+s283773942.464694
+e283773942.500676
 r1
 xProcessInfoPlistFile
 x/Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Info.plist
 xInfo.plist
-lSLF07#2@18"Process Info.plist283319810#283319810#0(0"0(0#0#35"/Users/jeff/Projects/Nio/Info.plist32651522506817640#252"    cd /Users/jeff/Projects/Nio    builtin-infoPlistUtility Info.plist -genpkginfo /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Info.plist0#
+lSLF07#2@18"Process Info.plist283773942#283773942#0(0"0(0#0#35"/Users/jeff/Projects/Nio/Info.plist32651522506817640#252"    cd /Users/jeff/Projects/Nio    builtin-infoPlistUtility Info.plist -genpkginfo /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jeff/Projects/Nio/build/Debug/Nio.app/Contents/Info.plist0#
 
 CProcessPCH /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch.gch Nio_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s283319810.243773
@@ -538,10 +643,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@25"Precompile Nio_Prefix.pch283319810#283319814#0(0"0(0#0#39"/Users/jeff/Projects/Nio/Nio_Prefix.pch4300885448#1161"    cd /Users/jeff/Projects/Nio    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-generated-files.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-own-target-headers.hmap -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-all-target-headers.hmap -iquote /Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/Nio-project-headers.hmap -F/Users/jeff/Projects/Nio/build/Debug -F/Users/jeff/Projects/Nio -I/Users/jeff/Projects/Nio/build/Debug/include -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources/i386 -I/Users/jeff/Projects/Nio/build/Nio.build/Debug/Nio.build/DerivedSources -c /Users/jeff/Projects/Nio/Nio_Prefix.pch -o /var/folders/AN/ANt5zqojEPiXN8kjO2IA0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nio_Prefix-eaqmelavnbivhlcdxlmerdxdulkz/Nio_Prefix.pch.gch0#
 
 CTouch /Users/jeff/Projects/Nio/build/Debug/Nio.app
-s283689132.701152
-e283689132.704600
+s283778723.820153
+e283778723.823000
 r1
 xTouch
 x/Users/jeff/Projects/Nio/build/Debug/Nio.app
-lSLF07#2@50"Touch /Users/jeff/Projects/Nio/build/Debug/Nio.app283689132#283689132#0(0"0(0#0#0"4300885448#99"    cd /Users/jeff/Projects/Nio    /usr/bin/touch -c /Users/jeff/Projects/Nio/build/Debug/Nio.app0#
+lSLF07#2@50"Touch /Users/jeff/Projects/Nio/build/Debug/Nio.app283778723#283778723#0(0"0(0#0#0"4300885448#99"    cd /Users/jeff/Projects/Nio    /usr/bin/touch -c /Users/jeff/Projects/Nio/build/Debug/Nio.app0#
 

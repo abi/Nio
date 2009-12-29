@@ -11,6 +11,7 @@
 
 @interface Client : NSObject <GrowlApplicationBridgeDelegate> {
 	NSURLConnection *notifyConn;
+	NSURLRequest *notifyReq;
 	NSURLConnection *iconConn;
 	NSDictionary *growlData;
 }

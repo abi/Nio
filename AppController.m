@@ -19,6 +19,13 @@
 - (BOOL)application:(NSApplication *)theApplication openFile:(NSString *)filename
 {
 	NSLog(@"opened file: %@", filename);
+	[GrowlApplicationBridge notifyWithTitle:@"Installing URL"
+								description:filename 
+						   notificationName:@"Nio" 
+								   iconData:nil 
+								   priority:1
+								   isSticky:NO
+							   clickContext:nil];
 	return YES;
 }
 

@@ -102,7 +102,7 @@
 			
 			[GrowlApplicationBridge notifyWithTitle:[growlData objectForKey:@"title"] 
 										description:[growlData objectForKey:@"text"] 
-								   notificationName:@"name1" 
+								   notificationName:@"Nio" 
 										   iconData:nil 
 										   priority:1 
 										   isSticky:[[growlData objectForKey:@"sticky"] isEqualToString:@"true"] 
@@ -129,7 +129,7 @@
 		
 		[GrowlApplicationBridge notifyWithTitle:[growlData objectForKey:@"title"] 
 									description:[growlData objectForKey:@"text"] 
-							   notificationName:@"name1" 
+							   notificationName:@"Nio" 
 									   iconData:[image TIFFRepresentation]
 									   priority:1 
 									   isSticky:[[growlData objectForKey:@"sticky"] isEqualToString:@"true"]
@@ -149,12 +149,12 @@
 	
 	// An NSArray of all possible names of notifications.
 	NSMutableArray *notificationNames = [[[NSMutableArray alloc] initWithCapacity:1] autorelease];
-	[notificationNames addObject:@"name1"];
+	[notificationNames addObject:@"Nio"];
 	[regDictionary setObject:notificationNames forKey:GROWL_NOTIFICATIONS_ALL];
 	
 	// An NSArray of notifications enabled by default (either by name, or by index into the GROWL_NOTIFICATIONS_ALL array).
 	NSMutableArray *defaultEnabledNotifications = [[NSMutableArray alloc] initWithCapacity:1];
-	[defaultEnabledNotifications addObject:@"name1"];
+	[defaultEnabledNotifications addObject:@"Nio"];
 	[regDictionary setObject:defaultEnabledNotifications forKey:GROWL_NOTIFICATIONS_DEFAULT];
 	
 	return regDictionary;

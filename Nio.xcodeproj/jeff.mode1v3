@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,7 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
+									<integer>15</integer>
+									<integer>14</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -309,8 +312,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -328,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1FA1971210EAA67D00BBAA37</string>
+										<string>1FA1972210EAA70000BBAA37</string>
 										<key>history</key>
 										<array>
 											<string>1FF3F62910E8BB08009C508B</string>
@@ -540,6 +541,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1FA1972A10EAA70000BBAA37</string>
+		<string>1FA1972B10EAA70000BBAA37</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1FD9282610E31E0B008D5C22</string>
 		<string>/Users/jeff/Projects/Nio/Nio.xcodeproj</string>
 	</array>
@@ -743,13 +748,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>1F47217810EAA5DB001CA131</string>
+				<string>1FA1972310EAA70000BBAA37</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>1F47217910EAA5DB001CA131</string>
-				<string>1F47217A10EAA5DB001CA131</string>
-				<string>1F47217B10EAA5DB001CA131</string>
-				<string>1F47217C10EAA5DB001CA131</string>
-				<string>1F47217D10EAA5DB001CA131</string>
+				<string>1FA1972410EAA70000BBAA37</string>
+				<string>1FA1972510EAA70000BBAA37</string>
+				<string>1FA1972610EAA70000BBAA37</string>
+				<string>1FA1972710EAA70000BBAA37</string>
+				<string>1FA1972810EAA70000BBAA37</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -876,8 +881,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -913,7 +916,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>1F47217E10EAA5DB001CA131</string>
+				<string>1FA1972910EAA70000BBAA37</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -923,7 +926,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

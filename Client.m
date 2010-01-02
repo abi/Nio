@@ -43,6 +43,7 @@
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
 	NSLog(@"connection finished");
+	[self makeConnection];
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
@@ -72,6 +73,18 @@
 		NSError *error = nil;
 		NSDictionary *messageDict = [[CJSONDeserializer deserializer] deserializeAsDictionary:jsonData error:&error];
 		self.growlData = messageDict;
+		
+		// Call the hook script if it's around
+		NSString *hookPath = [NSString stringWithFormat:@"%@/.NioCallback", NSHomeDirectory()];
+		NSString *hookScript = [[NSString alloc] initWithContentsOfFile:hookPath encoding:NSASCIIStringEncoding error:&error];
+		if ([hookScript length] != 0) {
+			NSLog(@"running hook: %@", hookPath);
+			NSTask *task = [[NSTask alloc] init];
+			NSArray *arguments = [NSArray arrayWithObjects: [growlData objectForKey:@"text"], [growlData objectForKey:@"title"], [growlData objectForKey:@"link"], nil];
+			[task setArguments: arguments];
+			[task setLaunchPath: hookPath];
+			[task launch];
+		}
 		
 		// Get the icon from the json data
 		NSString *iconURLStr = [growlData objectForKey:@"icon"];

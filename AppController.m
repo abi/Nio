@@ -121,15 +121,15 @@
 }
 
 - (IBAction)openHistory:(id)sender{
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/history"]];
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/history"]];
 }
 
 - (IBAction)openSources:(id)sender{
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/sources"]];
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/sources"]];
 }
 
 - (IBAction)openSettings:(id)sender{
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/dashboard/settings"]];
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/settings"]];
 }
 
 #pragma mark GrowlApplicationBridgeDelegate method 

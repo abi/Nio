@@ -1,2 +1,5 @@
-Nio.xcodeproj/jeff.*
+*.pbxuser
+*.perspective
+*.perspectivev3
+.DS_Store
 build

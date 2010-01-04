@@ -40,9 +40,11 @@
 	nioString = [nioString stringByAppendingString:stringFromFileAtPath];
 	[nioString writeToFile:nioFilename atomically:YES encoding:NSASCIIStringEncoding error:&error];
 	
+	NSString *newUrl = [stringFromFileAtPath stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+	[[Client alloc] initRemoteHost:newUrl];
 	
 	[GrowlApplicationBridge notifyWithTitle:@"Installed Listen URL"
-								description:filename 
+								description:@"Now listening to notification stream" 
 						   notificationName:@"Nio" 
 								   iconData:nil 
 								   priority:1
@@ -75,13 +77,6 @@
 	
 	if (growlBundle && [growlBundle load]) {
 		[GrowlApplicationBridge setGrowlDelegate:self]; 
-		[GrowlApplicationBridge	notifyWithTitle:@"Nio started"
-									description:@"Receiving notifications from notify.io"
-									notificationName:@"Nio"
-									   iconData:nil
-									   priority:1
-									   isSticky:NO
-								   clickContext:nil]; 
 	}
 	else{
 		NSLog(@"Could not load Growl.framework");
@@ -102,9 +97,23 @@
 		NSLog(@"the file at path %@ is empty. creating empty file.", filepath);
 		NSString *emptyString = @"";
 		[emptyString writeToFile:filepath atomically:YES encoding:NSASCIIStringEncoding error:&error];
+		[GrowlApplicationBridge	notifyWithTitle:@"Nio needs to be configured"
+									description:@"Click to finish Getting Started at Notify.io"
+							   notificationName:@"Nio"
+									   iconData:nil
+									   priority:1
+									   isSticky:NO
+								   clickContext:@"http://www.notify.io/getstarted"]; 
 	}
 	else {
 		NSArray *urls = [nioData componentsSeparatedByString:@"\n"];
+		[GrowlApplicationBridge notifyWithTitle:@"Nio started"
+									description:[NSString stringWithFormat:@"Listening to %d notification streams", [urls count]] 
+							   notificationName:@"Nio" 
+									   iconData:nil 
+									   priority:1
+									   isSticky:NO
+								   clickContext:nil];
 		for (NSString *url in urls) {
 			[[Client alloc] initRemoteHost:url];
 		}

@@ -9,6 +9,9 @@
 #import "Client.h"
 #import "Growl-WithInstaller/GrowlApplicationBridge.h"
 
+//TODO: Is hard-coding the path the only way?
+#define APP_PATH @"/Applications/Nio.app"
+
 @implementation AppController
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
@@ -153,6 +156,28 @@
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.notify.io/settings"]];
 }
 
+-(IBAction)toggleOpenAtLogin:(id)sender{
+	
+	CFURLRef url = (CFURLRef)[NSURL fileURLWithPath:APP_PATH];
+	
+	// Create a reference to the shared file list.
+	LSSharedFileListRef loginItems = LSSharedFileListCreate(NULL, kLSSharedFileListSessionLoginItems, NULL);
+	
+	if (loginItems) {
+		if([openAtLoginMenuItem state] == NSOnState){
+			[self disableLoginItemWithLoginItemsReference:loginItems ForPath:url];
+			[openAtLoginMenuItem setState:NSOffState];
+			NSLog(@"Open at Login turned OFF");
+		}else{
+			[self enableLoginItemWithLoginItemsReference:loginItems ForPath:url];
+			[openAtLoginMenuItem setState:NSOnState];
+			NSLog(@"Open at Login turned ON");
+		}
+	}
+	
+	CFRelease(loginItems);
+}
+
 #pragma mark GrowlApplicationBridgeDelegate method 
 
 - (NSDictionary *)registrationDictionaryForGrowl;
@@ -177,6 +202,34 @@
 	NSLog(@"growlNotificationWasClicked:%@", clickContext);
 	
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:clickContext]];
+}
+
+#pragma mark LoginItems 
+
+//Thanks to http://bitbucket.org/secondgear/shared-file-list-example/src/tip/Controller.m
+
+- (void)enableLoginItemWithLoginItemsReference:(LSSharedFileListRef )theLoginItemsRefs ForPath:(CFURLRef)thePath {
+	// We call LSSharedFileListInsertItemURL to insert the item at the bottom of Login Items list.
+	LSSharedFileListItemRef item = LSSharedFileListInsertItemURL(theLoginItemsRefs, kLSSharedFileListItemLast, NULL, NULL, thePath, NULL, NULL);		
+	if (item)
+		CFRelease(item);
+}
+
+- (void)disableLoginItemWithLoginItemsReference:(LSSharedFileListRef )theLoginItemsRefs ForPath:(CFURLRef)thePath {
+	UInt32 seedValue;
+	
+	// We're going to grab the contents of the shared file list (LSSharedFileListItemRef objects)
+	// and pop it in an array so we can iterate through it to find our item.
+	NSArray  *loginItemsArray = (NSArray *)LSSharedFileListCopySnapshot(theLoginItemsRefs, &seedValue);
+	for (id item in loginItemsArray) {		
+		LSSharedFileListItemRef itemRef = (LSSharedFileListItemRef)item;
+		if (LSSharedFileListItemResolve(itemRef, 0, (CFURLRef*) &thePath, NULL) == noErr) {
+			if ([[(NSURL *)thePath path] hasPrefix:APP_PATH])
+				LSSharedFileListItemRemove(theLoginItemsRefs, itemRef); // Deleting the item
+		}
+	}
+	
+	[loginItemsArray release];
 }
 
 @end

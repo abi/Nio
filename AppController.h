@@ -13,10 +13,12 @@
 	NSStatusItem *statusItem;
 	NSImage *statusImage;
 	NSImage *statusHighlightImage;
+	IBOutlet NSMenuItem *openAtLoginMenuItem;
 }
 
 -(IBAction)openHistory:(id)sender;
 -(IBAction)openSources:(id)sender;
 -(IBAction)openSettings:(id)sender;
+-(IBAction)toggleOpenAtLogin:(id)sender;
 
 @end

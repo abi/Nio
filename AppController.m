@@ -37,19 +37,31 @@
 						   initWithContentsOfFile:nioFilename
 						   encoding:NSASCIIStringEncoding
 						   error:&error];
-	nioString = [nioString stringByAppendingString:stringFromFileAtPath];
-	[nioString writeToFile:nioFilename atomically:YES encoding:NSASCIIStringEncoding error:&error];
+	NSRange range = [nioString rangeOfString:stringFromFileAtPath];
+	if (range.location == NSNotFound) {
+		nioString = [nioString stringByAppendingString:stringFromFileAtPath];
+		[nioString writeToFile:nioFilename atomically:YES encoding:NSASCIIStringEncoding error:&error];
 	
-	NSString *newUrl = [stringFromFileAtPath stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-	[[Client alloc] initRemoteHost:newUrl];
+		NSString *newUrl = [stringFromFileAtPath stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+		[[Client alloc] initRemoteHost:newUrl];
 	
-	[GrowlApplicationBridge notifyWithTitle:@"Installed Listen URL"
+		[GrowlApplicationBridge notifyWithTitle:@"Installed Listen URL"
 								description:@"Now listening to notification stream" 
 						   notificationName:@"Nio" 
 								   iconData:nil 
 								   priority:1
 								   isSticky:NO
 							   clickContext:nil];
+	}
+	else {
+		[GrowlApplicationBridge notifyWithTitle:@"Skipped Listen URL"
+									description:@"This Listen URL was already installed" 
+							   notificationName:@"Nio" 
+									   iconData:nil 
+									   priority:1
+									   isSticky:NO
+								   clickContext:nil];
+	}
 	return YES;
 }
 

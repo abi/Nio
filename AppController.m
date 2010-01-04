@@ -64,7 +64,7 @@
 	
 	[statusItem setMenu:statusMenu];
 	
-	[statusItem setToolTip:@"notify.io"];
+	[statusItem setToolTip:@"Notify.io"];
 	
 	[statusItem setHighlightMode:YES];
 	

@@ -37,24 +37,30 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
-	NSLog(@"received");
+	//NSLog(@"received");
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-	NSLog(@"connection finished");
-	[self makeConnection];
+	if([connection isEqualTo:notifyConn])
+	{
+		NSLog(@"connection finished");
+		[self makeConnection];
+	}
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
-	NSLog(@"did fail with error: %@", error);
-	// if hostname not found or net connection offline, try again after delay
-	if([error code] == -1003 || [error code] == -1009) {
-		[self performSelector:@selector(makeConnection) withObject:nil afterDelay:3.0];
-	}
-	else if([error code] != -1002) {
-		[self makeConnection];
+	if([connection isEqualTo:notifyConn])
+	{
+		NSLog(@"did fail with error: %@", error);
+		// if hostname not found or net connection offline, try again after delay
+		if([error code] == -1003 || [error code] == -1009) {
+			[self performSelector:@selector(makeConnection) withObject:nil afterDelay:3.0];
+		}
+		else if([error code] != -1002) {
+			[self makeConnection];
+		}
 	}
 }
 
@@ -88,6 +94,9 @@
 		
 		// Get the icon from the json data
 		NSString *iconURLStr = [growlData objectForKey:@"icon"];
+		
+		// TODO: implement caching of icon data. check cache here
+		
 		if(!iconURLStr)
 		{
 			
